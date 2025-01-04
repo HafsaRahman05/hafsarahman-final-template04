@@ -133,13 +133,13 @@ const ShopList = () => {
           <input
           type="input"
           placeholder=""
-          className="border border-gray-300 rounded-md p-2 text-gray-700 md:text-base "
+          className="border w-[80%] border-gray-300 rounded-md p-2 text-gray-700 md:text-base "
         />
         </div>
       </div>
 
       {/* Product Display */}
-      <div className={viewMode === "grid" ? "grid grid-cols-3 gap-6 p-[20px]" : " p-[20px]"}>
+      <div className={viewMode === "grid" ? "grid lg:grid-cols-3 gap-6 p-[20px]" : " p-[20px]"}>
         {products.map((product) => (
           <div
             key={product.id}
