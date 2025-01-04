@@ -175,7 +175,7 @@ const Shop: React.FC = () => {
           <input
           type="input"
           placeholder=""
-          className="border border-gray-300 rounded-md p-2 text-gray-700 md:text-base "
+          className="border w-[80%] border-gray-300 rounded-md p-2 text-gray-700 md:text-base "
         />
         </div>
       </div>
